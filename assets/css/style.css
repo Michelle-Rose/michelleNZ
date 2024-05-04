@@ -109,10 +109,12 @@ h6 {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
-  margin-right: 8px;
-  border-radius: 50%;
-  width: 40px;
+  width: fit-content;
   height: 40px;
+  border-radius: 100px;
+
+  padding: .3em 1.2em;
+  margin: 5px;
 }
 
 #header .social-links a:hover {
@@ -178,6 +180,7 @@ h6 {
   body::before {
     background: #28201E;
   }
+
   #header.header-top {
     height: 60px;
   }
