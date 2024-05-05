@@ -112,7 +112,6 @@ h6 {
   width: fit-content;
   height: 40px;
   border-radius: 100px;
-
   padding: .3em 1.2em;
   margin: 5px;
 }
@@ -139,6 +138,8 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem;
+    background: #28201E;
   }
 }
 
@@ -188,6 +189,14 @@ h6 {
   #header.header-top h1 {
     font-size: 26px;
   }
+  #header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background: #28201E;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -662,7 +671,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #F5CD67;
 }
 
 .portfolio .portfolio-wrap:hover::before {
